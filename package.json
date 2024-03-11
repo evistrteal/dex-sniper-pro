@@ -1,0 +1,23 @@
+{
+  "name": "dex-sniper-pro",
+  "version": "1.0.3",
+  "description": "Automated tool for sniping new token listings on decentralized exchanges.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evistrteal/dex-sniper-pro"
+  },
+  "author": "evistrteal",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^1.3.5",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
